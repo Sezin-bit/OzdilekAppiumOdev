@@ -1,0 +1,43 @@
+Created by testinium on 23.05.2022
+
+This is a concept file with following syntax for each concept.
+#Started
+* "4" saniye kadar bekleyiniz.
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/tv_startShoppingStore']" xpath'li elemente tıkla
+* "4" saniye kadar bekleyiniz.
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/nav_categories']" xpath'li elemente tıkla
+* "4" saniye kadar bekleyiniz.
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][2]" xpath'li elemente tıkla
+* "4" saniye kadar bekleyiniz.
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLayCategoriesItem'][10]" xpath'li elemente tıkla
+* "4" saniye kadar bekleyiniz.
+#Swipe
+* Sayfayı yukarı kaydır
+* "4" saniye kadar bekleyiniz.
+* Sayfayı yukarı kaydır
+* "4" saniye kadar bekleyiniz.
+#ProductSelection
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerView']" xpath'li elemente tıkla
+* "4" saniye kadar bekleyiniz.
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerView']/androidx.cardview.widget.CardView" xpath'li elemente tıkla
+* "4" saniye kadar bekleyiniz.
+#İnformationOfUsers
+* "com.ozdilek.ozdilekteyim:id/relLayFav" id'li elemente tıkla
+* "4" saniye kadar bekleyiniz.
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/etEposta']" xpath'li elemente "celiksezin@gmail.com" değerini yaz
+* "4" saniye kadar bekleyiniz.
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/etPassword']" xpath'li elemente "fkjkzkzaş" değerini yaz
+* "4" saniye kadar bekleyiniz.
+#BackToLastPage
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/ivBack']" xpath'li elemente tıkla
+* "4" saniye kadar bekleyiniz.
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/ivBack']" xpath'li elemente tıkla
+* "4" saniye kadar bekleyiniz.
+#RandomProductSelection
+* Sayfayı yukarı kaydır
+* "4" saniye kadar bekleyiniz.
+* "//*[@class='androidx.cardview.widget.CardView'][3]" xpath'li elemente tıkla
+* "4" saniye kadar bekleyiniz.
+* "com.ozdilek.ozdilekteyim:id/relLayInstallment" id'li elemente tıkla
+* "4" saniye kadar bekleyiniz.
+
